@@ -18,6 +18,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
+  release:                                                     
+    types: [published]
+#  watch:                                                        
+#    types: [started]
 
 env:
   CONFIG_FILE: x86_64.config
